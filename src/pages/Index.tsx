@@ -712,33 +712,14 @@ export default function Index() {
 
       {/* SOCIAL */}
       <section className="py-24 px-5 max-w-4xl mx-auto text-center space-y-8">
-        <div className="font-script text-5xl" style={{ color: "var(--blush-deep)" }}>Find Us Online</div>
+        <div className="font-script text-5xl" style={{ color: "var(--blush-deep)" }}>Get in Touch</div>
         <h2 className="font-serif text-3xl" style={{ color: "var(--text-main)" }}>
-          Follow the Sweet Journey
+          Have a Question? Say Hello!
         </h2>
         <div className="petal-divider"><span style={{ color: "var(--blush)" }}>🌸</span></div>
         <p className="max-w-md mx-auto" style={{ color: "var(--text-soft)" }}>
-          Behind-the-scenes baking, new flavours, and all things pink — follow us for a daily dose of sweetness.
+          For enquiries, custom orders, or just to say hi — drop me an email and I'll get back to you soon.
         </p>
-
-        <div className="flex flex-wrap gap-4 justify-center">
-          {[
-            { platform: "Instagram", handle: "@softblushbakery", icon: "Instagram", bg: "linear-gradient(135deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)" },
-            { platform: "TikTok", handle: "@softblushbakery", icon: "Music", bg: "#111" },
-            { platform: "Facebook", handle: "Soft Blush Bakery", icon: "Facebook", bg: "#1877f2" },
-          ].map((social) => (
-            <a
-              key={social.platform}
-              href="#"
-              className="flex items-center gap-3 px-6 py-3.5 rounded-full font-medium text-sm transition-all hover:scale-105 hover:shadow-lg"
-              style={{ background: social.bg, color: "#fff" }}
-            >
-              <Icon name={social.icon as "Instagram"} size={18} />
-              <span>{social.platform}</span>
-              <span className="opacity-80 text-xs">{social.handle}</span>
-            </a>
-          ))}
-        </div>
 
         <div
           className="mt-8 rounded-3xl p-8 inline-block"
