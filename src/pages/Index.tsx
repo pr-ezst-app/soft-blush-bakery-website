@@ -502,8 +502,8 @@ export default function Index() {
               style={{ backgroundColor: "var(--blush-deep)", color: "#fff", zIndex: 2 }}
             >
               <div>
-                <div className="font-script text-2xl">Since</div>
-                <div className="font-serif text-2xl font-bold">2021</div>
+                <div className="font-script text-2xl">Made</div>
+                <div className="font-serif text-lg font-bold leading-tight">with Love</div>
               </div>
             </div>
           </div>
@@ -517,10 +517,10 @@ export default function Index() {
               <span style={{ color: "var(--blush)" }}>🌸</span>
             </div>
             <p className="text-base leading-relaxed" style={{ color: "var(--text-soft)" }}>
-              Hi, I'm Sophia — the founder, baker, and biggest dessert lover behind Soft Blush Bakery! 🌸
+              Hi, I'm Anna James — the founder, baker, and biggest dessert lover behind Soft Blush Bakery! 🌸
             </p>
             <p className="text-base leading-relaxed" style={{ color: "var(--text-soft)" }}>
-              What started as weekend baking sessions in my mum's kitchen in 2021 grew into something I never expected — a small business built on love, butter, and a lot of pink sprinkles. At 22, I turned my passion for beautiful desserts into a real brand, and every single order still feels like a little celebration.
+              I'm a Grade 11 student with a big passion for beautiful desserts and an even bigger sweet tooth. What started as baking for fun grew into something I never expected — a small business built on love, butter, and a lot of pink sprinkles. Every single order still feels like a little celebration.
             </p>
             <p className="text-base leading-relaxed" style={{ color: "var(--text-soft)" }}>
               I believe food should be as beautiful as it is delicious. Every parfait, cupcake, and cookie that leaves my kitchen is made with care, creativity, and the best quality ingredients I can find. No shortcuts, no mass production — just small-batch magic made to order.
